@@ -5,15 +5,15 @@
 /*FONTS*/
 @font-face{
 	font-family: Caviar_Dreams;
-	src:url(font/Caviar_Dreams.ttf);
+	src:url('../font/Caviar_Dreams.ttf');
 }
 @font-face{
 	font-family: neuropol_medium;
-	src:url(font/neuropol_medium.ttf);
+	src:url('../font/neuropol_medium.ttf');
 }
 @font-face{
 	font-family: agopus_highresolution_roman;
-	src:url(font/agopus_highresolution_roman.ttf);
+	src:url('../font/agopus_highresolution_roman.ttf');
 }
 
 #main{
@@ -21,7 +21,7 @@
 	margin:0 auto;
 	min-width: 100%;
 	min-height: 1200px;
-	background-image: url("img/matrix-bg.png")
+	background-image: url("../img/matrix-bg.png")
 }
 /*END-FONTS*/
 
@@ -44,7 +44,7 @@
 	display: block;
 	position: absolute;
 	font-size: 200%;
-	font-family: agopus_highresolution_roman;
+	font-family: 'agopus_highresolution_roman', sans-serif;
 	color:#fff;
 	top: 57%;
 	left: 1200px;
@@ -60,7 +60,7 @@
 	display: block;
 	position: absolute;
 	font-size: 220%;
-	font-family: agopus_highresolution_roman;
+	font-family: 'agopus_highresolution_roman', sans-serif;
 	color:#fff;
 	top:87%;
 	left: 30%;
@@ -71,7 +71,7 @@
 	display: block;
 	position: absolute;
 	font-size: 240%;
-	font-family: agopus_highresolution_roman;
+	font-family: 'agopus_highresolution_roman', sans-serif;
 	color:#9bb0c2;
 	top:59%;
 	left: 125px;
@@ -94,7 +94,7 @@
 	font-size: 250%;
 	font-family: Caviar_Dreams;
 	padding-left: 40px;
-	
+
 }
 #left-menu ul li a{
 	display: block;
@@ -107,7 +107,7 @@
 }
 #left-menu ul li a:link{
 	color:#ffffff;
-	background: url("img/menu.png") no-repeat 1px;
+	background: url("../img/menu.png") no-repeat 1px;
 	 width: 100%;
 
 }
@@ -124,7 +124,7 @@
 	left: 550px;
 	width: 1100px;
 	height: 600px;
-	background: url("img/frame-slider.png") no-repeat;
+	background: url("../img/frame-slider.png") no-repeat;
 }
 .viewport{
     width: 1050px;
@@ -142,8 +142,8 @@
     top: 0;
     height:470px;
     margin: 0;
-    padding: 0;   
-    float:left; 
+    padding: 0;
+    float:left;
 }
 .slide{
     width: 1050px;
@@ -152,13 +152,13 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    background: url(img/1.jpg) no-repeat;
+    background: url('../img/1.jpg') no-repeat;
 }
 .second{
-      background: url(img/2.jpg) no-repeat;
+      background: url('../img/2.jpg') no-repeat;
 }
 .third{
-     background: url(img/3.jpg) no-repeat;
+     background: url('../img/3.jpg') no-repeat;
 }
 
 #switchSlide{
@@ -166,4 +166,3 @@
 	top: 63%;
 	left: 61%;
 }
-

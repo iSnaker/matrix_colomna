@@ -3,40 +3,33 @@
 <head>
 	<meta charset="UTF-8">
 	<title>MATRIX</title>
-	<link rel="stylesheet" href="main.css">
-
-	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script src="scripts/slide.js"></script>
-	<script src="scripts/switch.js"></script>
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./vendor/slick/slick.css">
 </head>
 <body>
-
-
 
 	<div id="main">
 		<div id="header">
 			<div id="logo"><p>МАТРИЦА</p></div>
 			<div id="mobile"><p>8 (496) 613-33-72</p><img src="img/phone.png" alt=""></div>
 		</div>
-		
+
 		<div id="frame">
 
 			<div class="viewport">
-			    <ul class="slidewrapper" data-current="0">
-			        <li class="slide"></li>
-			        <li class="slide second"></li>
-			        <li class="slide third"></li>
-			    </ul>
+					<div class="slick">
+						<div>
+							<img src="./img/1.jpg" alt="" class="responsive">
+						</div>
+						<div>
+							<img src="./img/2.jpg" alt="" class="responsive">
+						</div>
+						<div>
+							<img src="./img/3.jpg" alt="" class="responsive">
+						</div>
+					</div>
 			</div>
 		</div>
-
-		<div id="switchSlide">
-			<img src="img/activebutt.png" alt="" class="switch">
-			<img src="img/nextbutt.png" alt="" class="switch_a">
-			<img src="img/nextbutt.png" alt="" class="switch_b">
-		</div>
-
-
 
 		<div id="left-menu">
 			<ul>
@@ -51,6 +44,11 @@
 
 	</div>
 
-w
+
 </body>
+
+<script src="./scripts/jQuery.js"></script>
+<script src="./vendor/slick/slick.min.js"></script>
+<script src="./scripts/scripts.js"></script>
+
 </html>
